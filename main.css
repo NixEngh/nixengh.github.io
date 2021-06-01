@@ -7,7 +7,8 @@
 }
 
 canvas {
-    border: 1px solid black;
+    background: #000;
+    border: 1px solid rgb(216, 132, 132);
     display: inline;
 }
 .canvasDiv {
