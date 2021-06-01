@@ -27,6 +27,12 @@ class Location {
                 return new Location((this.gridx + 1 + gridwidth) % gridwidth, this.gridy, cellSize);
         }
     }
+    equals(location) {
+        if(location instanceof Location) {
+            return location.gridx == this.gridx && location.gridy == this.gridy;
+        }
+        return false;
+    }
 }
 class Segment {
     constructor(dir, isLast, isFirst, location) {
