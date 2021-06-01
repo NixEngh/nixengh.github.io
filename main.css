@@ -1,0 +1,18 @@
+.MainTitle {
+    background: #000;
+    color: aliceblue;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+canvas {
+    border: 1px solid black;
+    display: inline;
+}
+.canvasDiv {
+    width:100%;
+    margin: auto;
+    /* border: 1px solid black; */
+    text-align: center;
+}
