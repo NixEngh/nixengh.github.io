@@ -1,6 +1,9 @@
 body {
     margin: 0px;
 }
+.maintext {
+    padding: 10px;
+}
 
 .MainTitle {
     margin: 0px;
@@ -17,15 +20,23 @@ body {
     background: rgb(39, 39, 39);
     overflow: hidden;
     display: flex;
+    justify-content: space-around;
 }
 .topnav a {
     color: #f2f2f2;
     text-align: center;
-    padding: 14px 16px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    flex-grow: 1;
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
     font-size: 17px;
 }
+.topnav div {
+    flex-grow: 4;
+}
+
 .topnav a:hover {
 background-color: #ddd;
 color: black;
