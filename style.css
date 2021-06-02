@@ -1,8 +1,9 @@
-*{
+body {
     margin: 0px;
 }
 
 .MainTitle {
+    margin: 0px;
     background: #000;
     color: rgb(196, 196, 196);
     padding-top: 20px;
@@ -12,6 +13,7 @@
     font-family: 'Poppins', sans-serif;
 }
 .topnav {
+    margin: 0px;
     background: rgb(39, 39, 39);
     overflow: hidden;
     display: flex;
@@ -31,22 +33,4 @@ color: black;
 .topnav a.active {
 background-color: #707070;
 color: white;
-}
-
-
-canvas {
-    background: #000;
-    border: 0px solid rgb(216, 132, 132);
-    display: inline;
-}
-.canvasDiv {
-    width:100%;
-    margin: auto;
-    
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-
 }
